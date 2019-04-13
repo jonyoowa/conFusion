@@ -13,13 +13,12 @@ $(document).ready(function () {
         }
     });
 
-    //
-    $("#reserve-button").on('click', function (event) {
-        $("#buffet-reservation").show();
+    // Assignment 4, show modals on button click 
+    $("#login-button").on("click", function () {
+        $("#loginModal").modal('show');
     });
 
-    $("#login-button").on('click', function (event) {
-        $("#loginModal").show();
+    $("#reserve-button").on("click", function () {
+        $("#buffet-reservation").modal('show');
     });
-    //
 });
