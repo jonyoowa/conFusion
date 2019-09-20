@@ -12,7 +12,7 @@
     "build:css": "npm run scss",
     "build": "npm run build:css && npm run start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "author": "",
   "license": "ISC",
